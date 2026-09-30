@@ -1,6 +1,5 @@
 # Acme Payments API
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://badge.uptimerobot.com/sla/28c610335dc8b380d76b45afbc63b7d0.svg?theme=dark"><img src="https://badge.uptimerobot.com/sla/28c610335dc8b380d76b45afbc63b7d0.svg?theme=light" alt="Acme Payments API uptime SLA"></picture>
 
 A fast, reliable REST API for processing payments, refunds, and payouts.
 
@@ -10,6 +9,9 @@ We take uptime seriously. Our production API is monitored around the clock by
 [UptimeRobot](https://uptimerobot.com), and the badge above updates automatically
 with our real uptime. It also follows your GitHub theme, switching between light
 and dark mode.
+
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://badge.uptimerobot.com/sla/28c610335dc8b380d76b45afbc63b7d0.svg?theme=dark"><img src="https://badge.uptimerobot.com/sla/28c610335dc8b380d76b45afbc63b7d0.svg?theme=light" alt="Acme Payments API uptime SLA"></picture>
 
 ## Quick start
 
