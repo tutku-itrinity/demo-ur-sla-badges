@@ -1,11 +1,9 @@
 # Acme Payments API
 
-[![Uptime (24h)](<SLA_BADGE_URL_24H>)](<STATUS_PAGE_URL>)
-[![Uptime (7d)](<SLA_BADGE_URL_7D>)](<STATUS_PAGE_URL>)
-[![Uptime (30d)](<SLA_BADGE_URL_30D>)](<STATUS_PAGE_URL>)
-[![Uptime (90d)](<SLA_BADGE_URL_90D>)](<STATUS_PAGE_URL>)
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://badge.uptimerobot.com/sla/28c610335dc8b380d76b45afbc63b7d0.svg?theme=dark"><img src="https://badge.uptimerobot.com/sla/28c610335dc8b380d76b45afbc63b7d0.svg?theme=light" alt="Uptime SLA"></picture>
 
 A fast, reliable REST API for processing payments, refunds, and payouts.
+
 
 ## Reliability & SLA
 
