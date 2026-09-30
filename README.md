@@ -1,24 +1,15 @@
 # Acme Payments API
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://badge.uptimerobot.com/sla/28c610335dc8b380d76b45afbc63b7d0.svg?theme=dark"><img src="https://badge.uptimerobot.com/sla/28c610335dc8b380d76b45afbc63b7d0.svg?theme=light" alt="Uptime SLA"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://badge.uptimerobot.com/sla/28c610335dc8b380d76b45afbc63b7d0.svg?theme=dark"><img src="https://badge.uptimerobot.com/sla/28c610335dc8b380d76b45afbc63b7d0.svg?theme=light" alt="Acme Payments API uptime SLA"></picture>
 
 A fast, reliable REST API for processing payments, refunds, and payouts.
 
-
 ## Reliability & SLA
 
-We take uptime seriously. Our production API is monitored every 60 seconds by
-[UptimeRobot](https://uptimerobot.com), and the badges above update automatically
-with our real uptime over the last 24 hours, 7 days, 30 days, and 90 days.
-
-| Service              | SLA target | Current (30d)                                   |
-|----------------------|------------|-------------------------------------------------|
-| Payments API         | 99.95%     | ![30d](<SLA_BADGE_URL_API_30D>)                 |
-| Webhooks delivery    | 99.9%      | ![30d](<SLA_BADGE_URL_WEBHOOKS_30D>)            |
-| Merchant dashboard   | 99.9%      | ![30d](<SLA_BADGE_URL_DASHBOARD_30D>)           |
-
-For live status, incident history, and maintenance windows, see our
-[status page](<STATUS_PAGE_URL>).
+We take uptime seriously. Our production API is monitored around the clock by
+[UptimeRobot](https://uptimerobot.com), and the badge above updates automatically
+with our real uptime. It also follows your GitHub theme, switching between light
+and dark mode.
 
 ## Quick start
 
@@ -44,30 +35,28 @@ const charge = await acme.charges.create({ amount: 2500, currency: "usd" });
 
 ## Add an SLA badge to your own project
 
-Want badges like these? Here's how we set ours up:
+Want a badge like ours? Here's how to set it up:
 
-1. Create a monitor for your service in UptimeRobot.
+1. Create a monitor for your service in [UptimeRobot](https://uptimerobot.com).
 2. Open the monitor and go to the **SLA badge** section.
-3. Pick the time period (24h, 7d, 30d, 90d) and copy the Markdown or HTML snippet.
+3. Copy the embed snippet.
 4. Paste it at the top of your README.
 
-Markdown:
-
-```markdown
-[![Uptime](<SLA_BADGE_URL>)](<STATUS_PAGE_URL>)
-```
-
-HTML (useful if you want to control size or alignment):
+The snippet looks like this. It shows the dark badge in dark mode and the light
+badge otherwise:
 
 ```html
-<a href="<STATUS_PAGE_URL>">
-  <img src="<SLA_BADGE_URL>" alt="Uptime" height="20">
-</a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://badge.uptimerobot.com/sla/<YOUR_BADGE_ID>.svg?theme=dark"><img src="https://badge.uptimerobot.com/sla/<YOUR_BADGE_ID>.svg?theme=light" alt="Uptime SLA"></picture>
+```
+
+Prefer plain Markdown? Use a single theme:
+
+```markdown
+![Uptime SLA](https://badge.uptimerobot.com/sla/<YOUR_BADGE_ID>.svg?theme=light)
 ```
 
 ## Support
 
-- Status page: <STATUS_PAGE_URL>
 - Docs: https://docs.acmepay.example
 - Email: support@acmepay.example
 
